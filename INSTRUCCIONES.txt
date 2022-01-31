@@ -1,0 +1,14 @@
+Instrucciones
+
+1.- ControlInventarioBD: Control_Inventario.bak, es la base de datos creada en SQLServer
+	- Restaurar el archivo para su uso
+	- En /creacion bd se incluyen todas las consultas
+
+2.- Control_InventarioAPI : Creación de API
+	- Asegurarse de estar apuntando a los endpoint correctos, remplazarlo para su uso.
+
+3.- Front: Cliente de consumo de API
+	- Empieza desde login.html
+	- Aqui dejo una de las credenciales, pero use la que quiera que se encuentre en la bd
+	Usuario: vader
+	Contraseña: 12345

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Control_InventarioModelStoreContainer" CdmEntityContainer="Control_InventarioEntities">
+    <EntitySetMapping Name="Bitacora_Productos">
+      <EntityTypeMapping TypeName="Control_InventarioModel.Bitacora_Productos">
+        <MappingFragment StoreEntitySet="Bitacora_Productos">
+          <ScalarProperty Name="intBitacoraID" ColumnName="intBitacoraID" />
+          <ScalarProperty Name="intProductoID" ColumnName="intProductoID" />
+          <ScalarProperty Name="datFechaBitacora" ColumnName="datFechaBitacora" />
+          <ScalarProperty Name="intTipoProducto" ColumnName="intTipoProducto" />
+          <ScalarProperty Name="vchNombreProducto" ColumnName="vchNombreProducto" />
+          <ScalarProperty Name="decPrecioProducto" ColumnName="decPrecioProducto" />
+          <ScalarProperty Name="datFechaAltaProducto" ColumnName="datFechaAltaProducto" />
+          <ScalarProperty Name="intUsuarioAltaProducto" ColumnName="intUsuarioAltaProducto" />
+          <ScalarProperty Name="boolEstatusProducto" ColumnName="boolEstatusProducto" />
+          <ScalarProperty Name="intEventoID" ColumnName="intEventoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_Eventos">
+      <EntityTypeMapping TypeName="Control_InventarioModel.CAT_Eventos">
+        <MappingFragment StoreEntitySet="CAT_Eventos">
+          <ScalarProperty Name="intEventoID" ColumnName="intEventoID" />
+          <ScalarProperty Name="vchEvento" ColumnName="vchEvento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_Productos">
+      <EntityTypeMapping TypeName="Control_InventarioModel.CAT_Productos">
+        <MappingFragment StoreEntitySet="CAT_Productos">
+          <ScalarProperty Name="intProductoID" ColumnName="intProductoID" />
+          <ScalarProperty Name="intTipoProductoID" ColumnName="intTipoProductoID" />
+          <ScalarProperty Name="vchNombreProducto" ColumnName="vchNombreProducto" />
+          <ScalarProperty Name="decPrecioProducto" ColumnName="decPrecioProducto" />
+          <ScalarProperty Name="datFechaAltaProducto" ColumnName="datFechaAltaProducto" />
+          <ScalarProperty Name="intUsuarioAltaProducto" ColumnName="intUsuarioAltaProducto" />
+          <ScalarProperty Name="boolEstatusProducto" ColumnName="boolEstatusProducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TipoProducto">
+      <EntityTypeMapping TypeName="Control_InventarioModel.CAT_TipoProducto">
+        <MappingFragment StoreEntitySet="CAT_TipoProducto">
+          <ScalarProperty Name="intTipoProductoID" ColumnName="intTipoProductoID" />
+          <ScalarProperty Name="vchNombreTipoProducto" ColumnName="vchNombreTipoProducto" />
+          <ScalarProperty Name="vchDescripcionProducto" ColumnName="vchDescripcionProducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_Usuarios">
+      <EntityTypeMapping TypeName="Control_InventarioModel.CAT_Usuarios">
+        <MappingFragment StoreEntitySet="CAT_Usuarios">
+          <ScalarProperty Name="intUsuarioID" ColumnName="intUsuarioID" />
+          <ScalarProperty Name="vchNombreUsuario" ColumnName="vchNombreUsuario" />
+          <ScalarProperty Name="vchApellidoUsuario" ColumnName="vchApellidoUsuario" />
+          <ScalarProperty Name="datFechaNacimientoUsuario" ColumnName="datFechaNacimientoUsuario" />
+          <ScalarProperty Name="vchTelefonoUsuario" ColumnName="vchTelefonoUsuario" />
+          <ScalarProperty Name="boolEstatusUsuario" ColumnName="boolEstatusUsuario" />
+          <ScalarProperty Name="vchUserUsuario" ColumnName="vchUserUsuario" />
+          <ScalarProperty Name="vchPassUsuario" ColumnName="vchPassUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

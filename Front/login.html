@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tailwind.min.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+        <div class="grid place-items-center h-screen w-64">
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-4 mb-4" id="formLogin" action="">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" placeholder="Usuario"
+                        for="">Usuario</label>
+                    <input
+                        class="shadow appearance-none w-full py-1 px-2 text-gray-700 border rounded leading-tight focus-outline-none focus:shadow-outline"
+                        type="text" name="" id="nombreUsuario">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" placeholder="Contraseña"
+                        for="">Contraseña</label>
+                    <input
+                        class="shadow appearance-none w-full py-1 px-2 text-gray-700 border rounded leading-tight focus-outline-none focus:shadow-outline"
+                        type="password" name="" id="password">
+                </div>
+                <div class="flex item-center justify-center m-4">
+                    <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded py-1 px-3 focus-outline-none focus:shadow-outline">Entrar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

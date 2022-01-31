@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d36c9381eb1e482c9cd1ddf0d905b5e6" Name="Diagram1">
+        <EntityTypeShape EntityType="Control_InventarioModel.Bitacora_Productos" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Control_InventarioModel.CAT_Eventos" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Control_InventarioModel.CAT_Productos" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Control_InventarioModel.CAT_TipoProducto" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Control_InventarioModel.CAT_Usuarios" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="Control_InventarioModel.FK_Bitacora_Eventos" ManuallyRouted="false" />
+        <AssociationConnector Association="Control_InventarioModel.FK_CAT_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="Control_InventarioModel.FK_CAT_TipoProducto" ManuallyRouted="false" />
+        <AssociationConnector Association="Control_InventarioModel.FK_CAT_Usuarios" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
